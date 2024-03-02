@@ -2,6 +2,7 @@ import styles from './Description.module.sass';
 import Image from 'next/image';
 
 export const Description = () => {
+    console.log('Se me olvidó hacer commit para los archivs estáticos')
     return(
         <section className={styles.Description}>
             <div className={styles.Description__imageContainer}>
